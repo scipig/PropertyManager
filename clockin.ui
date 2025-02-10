@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>clockin</class>
+ <widget class="QWidget" name="clockin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1304</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton#clockinbutton {
+    border-radius: 160%; /* 使用百分比来确保是圆形 */
+    width: 200px; /* 设置你喜欢的宽度 */
+    height: 200px; /* 设置你喜欢的高度，确保与宽度相同以形成圆形 */
+    background-color: rgb(85, 255, 127); /* 设置背景颜色 */
+    border: none; /* 去掉按钮的边框，确保更好看 */
+}
+
+
+
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>30</y>
+     <width>60</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>姓名：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>80</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>手机号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>130</y>
+     <width>60</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>部门：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nameedit">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>30</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="phoneedit">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>80</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="departmentedit">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>130</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>460</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>修改密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clockinbutton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>160</y>
+     <width>351</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>23</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#clockinbutton {
+    border-radius: 160%; /* 使用百分比来确保是圆形 */
+    width: 200px; /* 设置你喜欢的宽度 */
+    height: 200px; /* 设置你喜欢的高度，确保与宽度相同以形成圆形 */
+    background-color: rgb(255, 255, 198); /* 设置背景颜色 */
+    border: none; /* 去掉按钮的边框，确保更好看 */
+    color:rgb(255, 85, 127)
+}
+
+QPushButton#clockinbutton:hover {
+    background-color: rgb(85, 255, 127); /* 当鼠标悬停时改变背景颜色 */
+    color:rgb(85, 255, 127)
+}
+</string>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <property name="text">
+    <string>打卡</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="qingdaka">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>50</y>
+     <width>151</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华文琥珀</family>
+     <pointsize>30</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#qingdaka {
+    font: 30pt &quot;华文琥珀&quot;;
+    color: rgb(255, 104, 44);
+}</string>
+   </property>
+   <property name="text">
+    <string>请打卡</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>180</y>
+     <width>160</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>本月已打卡次数：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="countedit">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>180</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="go_to_employee">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>前往办公</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
